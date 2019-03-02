@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='ASCII' standalone='yes'?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1" width="20in" viewBox="0 0 20in 20in" height="20in">
+  <g transform="translate(581.5, 383.9) scale(0.5) ">
+    <rect id="svgEditorBackground" x="0" y="0" width="930" height="520" style="fill: none; stroke: none;"/>
+    <polyline style="stroke:black;fill:none;stroke-width:1px;" id="e1_polyline" points="4.55408 52.1822 21.4421 37.9507 47.8178 33.3966 48.0076 33.3966 79.5066 34.1556 82.3529 50.2846 68.5009 48.0076 42.5047 49.1461 4.55408 52.3719"/>
+  </g>
+  <g transform="translate(623.9, 386.7) scale(0.5) ">
+    <rect id="svgEditorBackground" x="0" y="0" width="930" height="520" style="fill: none; stroke: none;"/>
+    <polyline style="stroke:black;fill:none;stroke-width:1px;" id="e1_polyline" points="4.55408 52.1822 21.4421 37.9507 47.8178 33.3966 48.0076 33.3966 79.5066 34.1556 82.3529 50.2846 68.5009 48.0076 42.5047 49.1461 4.55408 52.3719" transform="matrix(-1.10463 0 0 1 97.2412 -9.29791)"/>
+  </g>
+  <g transform="translate(575.8, 413.0) scale(0.5) ">
+    <rect id="svgEditorBackground" x="0" y="0" width="930" height="520" style="fill: none; stroke: none;"/>
+    <polyline style="stroke:black;fill:none;stroke-width:1px;" id="e3_polyline" points="5.12334 47.2486 25.8064 37.1917 51.2334 32.2581 76.2808 36.0531 94.1176 45.7305 77.9886 56.5465 53.1309 60.7211 25.0474 56.926 5.12334 47.0588"/>
+    <circle id="e4_circle" cx="51.9926" cy="46.4895" style="stroke: black; stroke-width: 1px;" r="13.3078"/>
+  </g>
+  <g transform="translate(634.7, 412.6) scale(0.5) ">
+    <rect id="svgEditorBackground" x="0" y="0" width="930" height="520" style="fill: none; stroke: none;"/>
+    <polyline style="stroke:black;fill:none;stroke-width:1px;" id="e3_polyline" points="5.12334 47.2486 25.8064 37.1917 51.2334 32.2581 76.2808 36.0531 94.1176 45.7305 77.9886 56.5465 53.1309 60.7211 25.0474 56.926 5.12334 47.0588"/>
+    <circle id="e4_circle" cx="51.9926" cy="46.4895" style="stroke: black; stroke-width: 1px;" r="13.3078"/>
+  </g>
+  <g transform="translate(592.3, 416.0) scale(0.5) ">
+    <rect id="svgEditorBackground" x="0" y="0" width="930" height="520" style="fill: none; stroke: none;"/>
+    <polyline style="stroke:black;fill:none;stroke-width:1px;" id="e5_polyline" points="37.1917 17.8368 35.2941 53.5104 22.2011 63.5674 44.9715 70.5882 59.5825 64.7059 47.4383 54.0797 44.7818 18.4061" transform="matrix(1 0 0 1 5.88235 0.759013)"/>
+  </g>
+  <g transform="translate(559.0, 499.6) scale(0.5) ">
+    <rect id="svgEditorBackground" x="0" y="0" width="930" height="520" style="fill: none; stroke: none;"/>
+    <polyline style="stroke:black;fill:none;stroke-width:1px;" id="e6_polyline" points="18.0266 53.7002 30.3605 46.2998 49.3359 48.1973 63.3776 44.9715 83.3017 51.6129 54.649 54.8387 18.4061 53.7002 23.9089 62.9981 44.7818 64.5161 65.2751 63.3776 83.3017 52.1822"/>
+  </g>
+</svg>
