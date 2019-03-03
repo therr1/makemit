@@ -33,9 +33,10 @@
         <style>.cls-1{fill:none;stroke:#000;stroke-miterlimit:10;}</style>
       </defs>
       <title>Cat_1</title>
-      <g id="eye_left_1">
-        <path class="cls-1" d="M152.89,222.38c0-20.06,26.45-36.29,59.14-36.29"/>
-        <path class="cls-1" d="M260.42,222.38c0-20.06-21.64-36.29-48.39-36.29"/>
+      <g id="eye_left_2">
+        <circle class="cls-1" cx="173.61" cy="210.53" r="29.82"/>
+        <path class="cls-1" d="M152.18,231.26c0-17.64,9.66-31.91,21.61-31.91"/>
+        <path class="cls-1" d="M198.13,227.49c0-15.55-10.89-28.14-24.34-28.14"/>
       </g>
     </g>
     <g transform="translate(55, 175) scale(1.0) ">
@@ -43,9 +44,10 @@
         <style>.cls-1{fill:none;stroke:#000;stroke-miterlimit:10;}</style>
       </defs>
       <title>Cat_1</title>
-      <g id="eye_right_1">
-        <path class="cls-1" d="M323.59,222.38c0-20.06,29.75-36.29,66.53-36.29"/>
-        <path class="cls-1" d="M417.67,222.38c0-20.06-12.32-36.29-27.55-36.29"/>
+      <g id="eye_right_2">
+        <circle class="cls-1" cx="395.17" cy="210.71" r="30.48"/>
+        <path class="cls-1" d="M369.74,227.49c0-15.55,11.61-28.14,26-28.14"/>
+        <path class="cls-1" d="M417.67,231.26c0-17.64-9.83-31.91-22-31.91"/>
       </g>
     </g>
     <g transform="translate(55, 175) scale(1.0) ">
@@ -62,8 +64,8 @@
         <style>.cls-1{fill:none;stroke:#000;stroke-miterlimit:10;}</style>
       </defs>
       <title>Cat_1</title>
-      <g id="ear_left_1">
-        <polyline class="cls-1" points="109.89 145.77 182.46 26.15 260.42 145.77"/>
+      <g id="ear_left_2">
+        <polyline class="cls-1" points="126.71 145.77 198.13 78.31 256.4 145.77"/>
       </g>
     </g>
     <g transform="translate(55, 175) scale(1.0) ">
@@ -71,8 +73,9 @@
         <style>.cls-1{fill:none;stroke:#000;stroke-miterlimit:10;}</style>
       </defs>
       <title>Cat_1</title>
-      <g id="ear_right_1">
-        <polyline class="cls-1" points="456.65 145.77 390.79 26.15 323.59 145.77"/>
+      <g id="ear_right_2">
+        <path class="cls-1" d="M383.21,78.31l57.64,67.46Z"/>
+        <line class="cls-1" x1="328.45" y1="145.77" x2="383.21" y2="78.31"/>
       </g>
     </g>
     <g transform="translate(55, 175) scale(1.0) ">
@@ -80,8 +83,8 @@
         <style>.cls-1{fill:none;stroke:#000;stroke-miterlimit:10;}</style>
       </defs>
       <title>Cat_1</title>
-      <g id="nose_1">
-        <polygon class="cls-1" points="268.48 265.39 310.15 265.39 289.31 309.74 268.48 265.39"/>
+      <g id="nose_2">
+        <polygon class="cls-1" points="249.68 252.19 332.29 252.19 290.99 273.32 249.68 252.19"/>
       </g>
     </g>
     <g transform="translate(55, 175) scale(1.0) ">
@@ -100,8 +103,9 @@
         <style>.cls-1{fill:none;stroke:#000;stroke-miterlimit:10;}</style>
       </defs>
       <title>Cat_1</title>
-      <g id="eyebrow_left_1">
-        <path class="cls-1" d="M169,165.93c0-6.69,19.24-12.1,43-12.1"/>
+      <g id="eyebrow_left_surprise">
+        <path class="cls-1" d="M160.34,165.93c0-6.69,6-12.1,13.45-12.1"/>
+        <path class="cls-1" d="M185.15,165.93c0-6.69-5.08-12.1-11.36-12.1"/>
       </g>
     </g>
     <g transform="translate(566, 277) scale(0.7904411764705882) ">
@@ -109,8 +113,9 @@
         <style>.cls-1{fill:none;stroke:#000;stroke-miterlimit:10;}</style>
       </defs>
       <title>Cat_1</title>
-      <g id="eyebrow_right_1">
-        <path class="cls-1" d="M411,165.93c0-6.69-13.83-12.1-30.91-12.1"/>
+      <g id="eyebrow_right_surprise">
+        <path class="cls-1" d="M407.23,165.93c0-6.69-5.16-12.1-11.53-12.1"/>
+        <path class="cls-1" d="M383.21,165.93a12.29,12.29,0,0,1,12.49-12.1"/>
       </g>
     </g>
     <g transform="translate(566, 277) scale(0.7904411764705882) ">
@@ -147,8 +152,8 @@
         <style>.cls-1{fill:none;stroke:#000;stroke-miterlimit:10;}</style>
       </defs>
       <title>Cat_1</title>
-      <g id="body">
-        <polyline class="cls-1" points="190.53 368.88 190.53 487.15 252.35 487.15 252.35 462.96 356.85 462.96 356.85 492.53 417.67 492.53 417.67 368.88"/>
+      <g id="body_2">
+        <polyline class="cls-1" points="190.12 368.88 217.02 506.76 256.4 456.81 323.59 456.81 352.47 506.76 383.21 368.88"/>
       </g>
     </g>
     <g transform="translate(566, 277) scale(0.7904411764705882) ">
@@ -156,8 +161,8 @@
         <style>.cls-1{fill:none;stroke:#000;stroke-miterlimit:10;}</style>
       </defs>
       <title>Cat_1</title>
-      <g id="ear_left_1">
-        <polyline class="cls-1" points="109.89 145.77 182.46 26.15 260.42 145.77"/>
+      <g id="ear_left_2">
+        <polyline class="cls-1" points="126.71 145.77 198.13 78.31 256.4 145.77"/>
       </g>
     </g>
     <g transform="translate(566, 277) scale(0.7904411764705882) ">
@@ -165,8 +170,9 @@
         <style>.cls-1{fill:none;stroke:#000;stroke-miterlimit:10;}</style>
       </defs>
       <title>Cat_1</title>
-      <g id="ear_right_1">
-        <polyline class="cls-1" points="456.65 145.77 390.79 26.15 323.59 145.77"/>
+      <g id="ear_right_2">
+        <path class="cls-1" d="M383.21,78.31l57.64,67.46Z"/>
+        <line class="cls-1" x1="328.45" y1="145.77" x2="383.21" y2="78.31"/>
       </g>
     </g>
     <g transform="translate(566, 277) scale(0.7904411764705882) ">
@@ -174,8 +180,8 @@
         <style>.cls-1{fill:none;stroke:#000;stroke-miterlimit:10;}</style>
       </defs>
       <title>Cat_1</title>
-      <g id="nose_1">
-        <polygon class="cls-1" points="268.48 265.39 310.15 265.39 289.31 309.74 268.48 265.39"/>
+      <g id="nose_2">
+        <polygon class="cls-1" points="249.68 252.19 332.29 252.19 290.99 273.32 249.68 252.19"/>
       </g>
     </g>
     <g transform="translate(566, 277) scale(0.7904411764705882) ">
@@ -183,8 +189,8 @@
         <style>.cls-1{fill:none;stroke:#000;stroke-miterlimit:10;}</style>
       </defs>
       <title>Cat_1</title>
-      <g id="mouth_1">
-        <polyline class="cls-1" points="236.22 337.97 260.42 358.13 289.31 337.97 323.59 358.13 333 329.9"/>
+      <g id="mouth_surprise">
+        <ellipse class="cls-1" cx="291.33" cy="320.87" rx="28.34" ry="42.75"/>
       </g>
     </g>
   </svg>
@@ -362,8 +368,8 @@
         <style>.cls-1{fill:none;stroke:#000;stroke-miterlimit:10;}</style>
       </defs>
       <title>Cat_1</title>
-      <g id="nose_1">
-        <polygon class="cls-1" points="268.48 265.39 310.15 265.39 289.31 309.74 268.48 265.39"/>
+      <g id="nose_2">
+        <polygon class="cls-1" points="249.68 252.19 332.29 252.19 290.99 273.32 249.68 252.19"/>
       </g>
     </g>
     <g transform="translate(859, 378) scale(0.5735294117647058) ">

@@ -40,20 +40,20 @@ class CatCreator:
 
 
     def get_emotion(self, face):
-        emotions = face['emotion']
+        emotions = face['faceAttributes']['emotion']
         anger = float(emotions['anger'])
-        sadness = float(emotions['sadness'])
+        surprise = float(emotions['surprise'])
         neutral = float(emotions['neutral'])
         happiness = float(emotions['happiness'])
 
-        if anger > 0:
+        if anger > 0.05:
             return 'anger'
         if neutral > 0.8:
-            return 'neutral':
-        if sadness > 0.6:
-            return 'sadness':
+            return 'neutral'
+        if surprise > 0.6:
+            return 'surprise'
         else:
-            return 'happiness'
+            return None
 
 
     def build_face(self, face, scaling=1):
@@ -63,31 +63,27 @@ class CatCreator:
         left_eyebrow_details = (landmarks['eyebrowLeftInner'],landmarks['eyebrowLeftOuter'])
         rectangle = face['faceRectangle']
         left_pos, top_pos =  rectangle['left'], rectangle['top']
-        emotion = self.get_emotion
+        emotion = self.get_emotion(face)
 
 
 
         feature_names = ['left_eyebrow', 'right_eyebrow', 'head', 'left_eye', 'right_eye', 'body', 'left_ear', 'right_ear', 'nose', 'mouth']
+        # super hacky, put all lefts before rights in above list otherwise it breaks lmao
+
+        file_name = None
         for feature_name in feature_names:
-            ff =  FacialFeature(left_pos, top_pos, scaling, style=feature_name, version=emotion)
+            ff = None
+            if 'left' in feature_name:
+                ff =  FacialFeature(left_pos, top_pos, scaling, style=feature_name, version=emotion, number=None)
+                file_name = ff.get_file_name()
+            elif 'right' in feature_name:
+                ff =  FacialFeature(left_pos, top_pos, scaling, style=feature_name, version=emotion, file_name_override=file_name)
+                file_name = None
+            else:
+                ff =  FacialFeature(left_pos, top_pos, scaling, style=feature_name, version=emotion, number=None)
+
             features.append(ff)
-        # left_eyebrow_details = (landmarks['eyebrowLeftInner'],landmarks['eyebrowLeftOuter'])
-        # features.append(FacialFeature(left_eyebrow_details, style='left_eyebrow',version=version))
 
-        # right_eyebrow_details = (landmarks['eyebrowRightInner'],landmarks['eyebrowRightOuter'])
-        # features.append(FacialFeature(right_eyebrow_details, style='right_eyebrow',version=version))
-
-        # left_eye_details = (landmarks['eyeLeftInner'],landmarks['eyeLeftOuter'])
-        # features.append(FacialFeature(left_eye_details, style='left_eye',version=version))
-
-        # right_eye_details = (landmarks['eyeRightInner'],landmarks['eyeRightOuter'])
-        # features.append(FacialFeature(right_eye_details, style='right_eye',version=version))
-
-        # nose_details = (landmarks['noseRootLeft'],landmarks['noseRootRight'])
-        # features.append(FacialFeature(nose_details, style='nose', version=version))
-
-        # mouth_details = (landmarks['mouthLeft'], landmarks['mouthRight'])
-        # features.append(FacialFeature(mouth_details, style='mouth', version=version))
 
         return features
 
