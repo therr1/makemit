@@ -12,7 +12,7 @@ class Cat:
     def get_template(self):
         """
         """
-        final_cat = st.SVGFigure("20in", "20in")
+        final_cat = st.SVGFigure("10000", "10000")
         for feature in self.features:
             feature_template = feature.get_template()
             final_cat.append(feature_template)

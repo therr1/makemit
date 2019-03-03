@@ -15,13 +15,16 @@ class CatCreator:
         self.image_path = image_path
         attributes = "age,gender,headPose,smile,facialHair,glasses,emotion,makeup,accessories"
         self.faces = CF.face.detect(image_path, landmarks=True, attributes=attributes)
+        print(self.faces)
 
     def construct_image(self):
+        self.get_scalings()
         final_image = st.SVGFigure("20in", "20in")
 
         print(len(self.faces))
         for ix, face in enumerate(self.faces):
-            features = self.build_face(face)
+            scaling = self.scalings[ix]
+            features = self.build_face(face,scaling=scaling)
             cat = Cat(features=features)
             image = cat.get_template()
             image.save('../data/merged_' + str(ix) + '.svg')
@@ -29,33 +32,67 @@ class CatCreator:
 
         final_image.save('../data/merged.svg')
 
+    def get_scalings(self):
+        scalings = []
+        widths = [face['faceRectangle']['width'] for face in self.faces]
+        scalings = [width/max(widths) for width in widths]
+        self.scalings = scalings
 
 
-    def build_face(self, face):
+    def get_emotion(self, face):
+        emotions = face['emotion']
+        anger = float(emotions['anger'])
+        sadness = float(emotions['sadness'])
+        neutral = float(emotions['neutral'])
+        happiness = float(emotions['happiness'])
+
+        if anger > 0:
+            return 'anger'
+        if neutral > 0.8:
+            return 'neutral':
+        if sadness > 0.6:
+            return 'sadness':
+        else:
+            return 'happiness'
+
+
+    def build_face(self, face, scaling=1):
         features = []
         landmarks = face['faceLandmarks']
+        version = 1
         left_eyebrow_details = (landmarks['eyebrowLeftInner'],landmarks['eyebrowLeftOuter'])
-        features.append(FacialFeature(left_eyebrow_details, style='left_eyebrow'))
+        rectangle = face['faceRectangle']
+        left_pos, top_pos =  rectangle['left'], rectangle['top']
+        emotion = self.get_emotion
 
-        right_eyebrow_details = (landmarks['eyebrowRightInner'],landmarks['eyebrowRightOuter'])
-        features.append(FacialFeature(right_eyebrow_details, style='right_eyebrow'))
 
-        left_eye_details = (landmarks['eyeLeftInner'],landmarks['eyeLeftOuter'])
-        features.append(FacialFeature(left_eye_details, style='left_eye'))
 
-        right_eye_details = (landmarks['eyeRightInner'],landmarks['eyeRightOuter'])
-        features.append(FacialFeature(right_eye_details, style='right_eye'))
+        feature_names = ['left_eyebrow', 'right_eyebrow', 'head', 'left_eye', 'right_eye', 'body', 'left_ear', 'right_ear', 'nose', 'mouth']
+        for feature_name in feature_names:
+            ff =  FacialFeature(left_pos, top_pos, scaling, style=feature_name, version=emotion)
+            features.append(ff)
+        # left_eyebrow_details = (landmarks['eyebrowLeftInner'],landmarks['eyebrowLeftOuter'])
+        # features.append(FacialFeature(left_eyebrow_details, style='left_eyebrow',version=version))
 
-        nose_details = (landmarks['noseRootLeft'],landmarks['noseRootRight'])
-        features.append(FacialFeature(nose_details, style='nose'))
+        # right_eyebrow_details = (landmarks['eyebrowRightInner'],landmarks['eyebrowRightOuter'])
+        # features.append(FacialFeature(right_eyebrow_details, style='right_eyebrow',version=version))
 
-        mouth_details = (landmarks['mouthLeft'], landmarks['mouthRight'])
-        features.append(FacialFeature(mouth_details, style='mouth'))
+        # left_eye_details = (landmarks['eyeLeftInner'],landmarks['eyeLeftOuter'])
+        # features.append(FacialFeature(left_eye_details, style='left_eye',version=version))
+
+        # right_eye_details = (landmarks['eyeRightInner'],landmarks['eyeRightOuter'])
+        # features.append(FacialFeature(right_eye_details, style='right_eye',version=version))
+
+        # nose_details = (landmarks['noseRootLeft'],landmarks['noseRootRight'])
+        # features.append(FacialFeature(nose_details, style='nose', version=version))
+
+        # mouth_details = (landmarks['mouthLeft'], landmarks['mouthRight'])
+        # features.append(FacialFeature(mouth_details, style='mouth', version=version))
 
         return features
 
 if __name__ == '__main__':
-    cc = CatCreator('../data/us2.jpg')
+    cc = CatCreator('../data/us_final.jpg')
     cc.construct_image()
 
 

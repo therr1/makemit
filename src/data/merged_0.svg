@@ -1,29 +1,95 @@
 <?xml version='1.0' encoding='ASCII' standalone='yes'?>
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1" width="20in" viewBox="0 0 20in 20in" height="20in">
-  <g transform="translate(185.4, 217.5) scale(0.5) ">
-    <rect id="svgEditorBackground" x="0" y="0" width="930" height="520" style="fill: none; stroke: none;"/>
-    <polyline style="stroke:black;fill:none;stroke-width:1px;" id="e1_polyline" points="4.55408 52.1822 21.4421 37.9507 47.8178 33.3966 48.0076 33.3966 79.5066 34.1556 82.3529 50.2846 68.5009 48.0076 42.5047 49.1461 4.55408 52.3719"/>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1" width="10000" viewBox="0 0 10000 10000" height="10000">
+  <g transform="translate(55, 175) scale(1.0) ">
+    <defs>
+      <style>.cls-1{fill:none;stroke:#000;stroke-miterlimit:10;}</style>
+    </defs>
+    <title>Cat_1</title>
+    <g id="eyebrow_left_1">
+      <path class="cls-1" d="M169,165.93c0-6.69,19.24-12.1,43-12.1"/>
+    </g>
   </g>
-  <g transform="translate(241.9, 224.9) scale(0.5) ">
-    <rect id="svgEditorBackground" x="0" y="0" width="930" height="520" style="fill: none; stroke: none;"/>
-    <polyline style="stroke:black;fill:none;stroke-width:1px;" id="e1_polyline" points="4.55408 52.1822 21.4421 37.9507 47.8178 33.3966 48.0076 33.3966 79.5066 34.1556 82.3529 50.2846 68.5009 48.0076 42.5047 49.1461 4.55408 52.3719" transform="matrix(-1.10463 0 0 1 97.2412 -9.29791)"/>
+  <g transform="translate(55, 175) scale(1.0) ">
+    <defs>
+      <style>.cls-1{fill:none;stroke:#000;stroke-miterlimit:10;}</style>
+    </defs>
+    <title>Cat_1</title>
+    <g id="eyebrow_right_1">
+      <path class="cls-1" d="M411,165.93c0-6.69-13.83-12.1-30.91-12.1"/>
+    </g>
   </g>
-  <g transform="translate(165.3, 241.3) scale(0.5) ">
-    <rect id="svgEditorBackground" x="0" y="0" width="930" height="520" style="fill: none; stroke: none;"/>
-    <polyline style="stroke:black;fill:none;stroke-width:1px;" id="e3_polyline" points="5.12334 47.2486 25.8064 37.1917 51.2334 32.2581 76.2808 36.0531 94.1176 45.7305 77.9886 56.5465 53.1309 60.7211 25.0474 56.926 5.12334 47.0588"/>
-    <circle id="e4_circle" cx="51.9926" cy="46.4895" style="stroke: black; stroke-width: 1px;" r="13.3078"/>
+  <g transform="translate(55, 175) scale(1.0) ">
+    <defs>
+      <style>.cls-1{fill:none;stroke:#000;stroke-miterlimit:10;}</style>
+    </defs>
+    <title>Cat_1</title>
+    <g id="cat_head_1">
+      <polygon class="cls-1" points="109.89 145.77 109.89 368.88 456.65 368.88 456.65 145.77 237.57 145.77 109.89 145.77"/>
+    </g>
   </g>
-  <g transform="translate(247.3, 251.3) scale(0.5) ">
-    <rect id="svgEditorBackground" x="0" y="0" width="930" height="520" style="fill: none; stroke: none;"/>
-    <polyline style="stroke:black;fill:none;stroke-width:1px;" id="e3_polyline" points="5.12334 47.2486 25.8064 37.1917 51.2334 32.2581 76.2808 36.0531 94.1176 45.7305 77.9886 56.5465 53.1309 60.7211 25.0474 56.926 5.12334 47.0588"/>
-    <circle id="e4_circle" cx="51.9926" cy="46.4895" style="stroke: black; stroke-width: 1px;" r="13.3078"/>
+  <g transform="translate(55, 175) scale(1.0) ">
+    <defs>
+      <style>.cls-1{fill:none;stroke:#000;stroke-miterlimit:10;}</style>
+    </defs>
+    <title>Cat_1</title>
+    <g id="eye_left_1">
+      <path class="cls-1" d="M152.89,222.38c0-20.06,26.45-36.29,59.14-36.29"/>
+      <path class="cls-1" d="M260.42,222.38c0-20.06-21.64-36.29-48.39-36.29"/>
+    </g>
   </g>
-  <g transform="translate(192.1, 247.2) scale(0.5) ">
-    <rect id="svgEditorBackground" x="0" y="0" width="930" height="520" style="fill: none; stroke: none;"/>
-    <polyline style="stroke:black;fill:none;stroke-width:1px;" id="e5_polyline" points="37.1917 17.8368 35.2941 53.5104 22.2011 63.5674 44.9715 70.5882 59.5825 64.7059 47.4383 54.0797 44.7818 18.4061" transform="matrix(1 0 0 1 5.88235 0.759013)"/>
+  <g transform="translate(55, 175) scale(1.0) ">
+    <defs>
+      <style>.cls-1{fill:none;stroke:#000;stroke-miterlimit:10;}</style>
+    </defs>
+    <title>Cat_1</title>
+    <g id="eye_right_1">
+      <path class="cls-1" d="M323.59,222.38c0-20.06,29.75-36.29,66.53-36.29"/>
+      <path class="cls-1" d="M417.67,222.38c0-20.06-12.32-36.29-27.55-36.29"/>
+    </g>
   </g>
-  <g transform="translate(139.8, 374.1) scale(0.5) ">
-    <rect id="svgEditorBackground" x="0" y="0" width="930" height="520" style="fill: none; stroke: none;"/>
-    <polyline style="stroke:black;fill:none;stroke-width:1px;" id="e6_polyline" points="18.0266 53.7002 30.3605 46.2998 49.3359 48.1973 63.3776 44.9715 83.3017 51.6129 54.649 54.8387 18.4061 53.7002 23.9089 62.9981 44.7818 64.5161 65.2751 63.3776 83.3017 52.1822"/>
+  <g transform="translate(55, 175) scale(1.0) ">
+    <defs>
+      <style>.cls-1{fill:none;stroke:#000;stroke-miterlimit:10;}</style>
+    </defs>
+    <title>Cat_1</title>
+    <g id="body">
+      <polyline class="cls-1" points="190.53 368.88 190.53 487.15 252.35 487.15 252.35 462.96 356.85 462.96 356.85 492.53 417.67 492.53 417.67 368.88"/>
+    </g>
+  </g>
+  <g transform="translate(55, 175) scale(1.0) ">
+    <defs>
+      <style>.cls-1{fill:none;stroke:#000;stroke-miterlimit:10;}</style>
+    </defs>
+    <title>Cat_1</title>
+    <g id="ear_left_1">
+      <polyline class="cls-1" points="109.89 145.77 182.46 26.15 260.42 145.77"/>
+    </g>
+  </g>
+  <g transform="translate(55, 175) scale(1.0) ">
+    <defs>
+      <style>.cls-1{fill:none;stroke:#000;stroke-miterlimit:10;}</style>
+    </defs>
+    <title>Cat_1</title>
+    <g id="ear_right_1">
+      <polyline class="cls-1" points="456.65 145.77 390.79 26.15 323.59 145.77"/>
+    </g>
+  </g>
+  <g transform="translate(55, 175) scale(1.0) ">
+    <defs>
+      <style>.cls-1{fill:none;stroke:#000;stroke-miterlimit:10;}</style>
+    </defs>
+    <title>Cat_1</title>
+    <g id="nose_1">
+      <polygon class="cls-1" points="268.48 265.39 310.15 265.39 289.31 309.74 268.48 265.39"/>
+    </g>
+  </g>
+  <g transform="translate(55, 175) scale(1.0) ">
+    <defs>
+      <style>.cls-1{fill:none;stroke:#000;stroke-miterlimit:10;}</style>
+    </defs>
+    <title>Cat_1</title>
+    <g id="mouth_1">
+      <polyline class="cls-1" points="236.22 337.97 260.42 358.13 289.31 337.97 323.59 358.13 333 329.9"/>
+    </g>
   </g>
 </svg>
